@@ -2,10 +2,10 @@ import cv2
 import os
 
 # Path to Haar Cascade XML for number plate detection
-cascade_path = r'C:\Users\alaga\Desktop\project\IOC\haarcascade_russian_plate_number.xml' # Ensure this file is present in your directory
+cascade_path = r'haarcascade_russian_plate_number.xml' # Ensure this file is present in your directory
 
 # Path to your folder containing car images
-img_folder = r'C:\Users\alaga\Desktop\project\IOC\car number plate'
+img_folder = r'car number plate'
 
 plate_cascade = cv2.CascadeClassifier(cascade_path)
 if plate_cascade.empty():

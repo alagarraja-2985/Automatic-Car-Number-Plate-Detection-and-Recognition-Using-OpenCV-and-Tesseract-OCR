@@ -3,11 +3,11 @@ import os
 import pytesseract
 
 # Configure Tesseract executable path if needed
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'tesseract.exe'
 
-cascade_path = r'C:\Users\alaga\Desktop\project\IOC\haarcascade_russian_plate_number.xml'
-default_img_folder = r'C:\Users\alaga\Desktop\project\IOC\car number plate'
-default_video_path = r'C:\Users\alaga\Desktop\project\IOC\sample_video.mp4'  # Change if you want a default
+cascade_path = r'haarcascade_russian_plate_number.xml'
+default_img_folder = r'car number plate'
+default_video_path = r'sample_video.mp4'  # Change if you want a default
 
 plate_cascade = cv2.CascadeClassifier(cascade_path)
 if plate_cascade.empty():
