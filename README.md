@@ -28,7 +28,6 @@ LicensePlateRecognition/
 │ ├── car_number_plate_v2.py # Detection + OCR (for images)
 │ └── car_number_plate_v3.py # Unified (webcam, video, folder)
 │
-├── sample_video.mp4 # (Optional) Demo video sample
 ├── README.md
 ├── requirements.txt
 
@@ -111,5 +110,6 @@ Your `requirements.txt` should contain:
 ## License
 
 This project is open-source and available under the MIT License.
+
 
 ---
