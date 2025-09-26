@@ -17,8 +17,6 @@ Supports processing of live webcam video, video files, or a dataset of static im
 
 ## Directory Structure
 
-LicensePlateRecognition/
-│
 ├── data/
 │ └── number_plate/ # Image dataset for number plate recognition
 │ └── haarcascade_russian_plate_number.xml
@@ -113,3 +111,4 @@ This project is open-source and available under the MIT License.
 
 
 ---
+
